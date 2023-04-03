@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce">
+
+	<test name="run on firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nopcommerce.user.Level_21_Switch_Environment_Owner" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

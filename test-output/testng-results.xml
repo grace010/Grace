@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T15:11:57Z" name="Default suite" finished-at="2023-03-30T15:12:04Z" duration-ms="6694">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T15:11:57Z" name="Default test" finished-at="2023-03-30T15:12:04Z" duration-ms="6694">
+      <class name="selenium.Topic_Wait_1">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:selenium.Topic_Wait_1@1fa121e2]" started-at="2023-03-30T15:11:57Z" name="beforeClass" finished-at="2023-03-30T15:12:00Z" duration-ms="2488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="wait_1()[pri:0, instance:selenium.Topic_Wait_1@1fa121e2]" started-at="2023-03-30T15:12:00Z" name="wait_1" finished-at="2023-03-30T15:12:02Z" duration-ms="1690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wait_1 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:selenium.Topic_Wait_1@1fa121e2]" started-at="2023-03-30T15:12:02Z" name="afterClass" finished-at="2023-03-30T15:12:04Z" duration-ms="2503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selenium.Topic_Wait_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
