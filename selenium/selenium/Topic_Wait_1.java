@@ -24,13 +24,14 @@ public class Topic_Wait_1 {
 	@Test
 	public void wait_1_visibility() {
 		driver.get("https://www.facebook.com/");
-		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='email']")));
+		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@sid='email']")));
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("abc@gmail.com");
 	
 	}
 	
 	@Test
 	public void wait_1_invisibility() {
+		driver.get("https://www.facebook.com/");
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='email']")));
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("abc@gmail.com");
 	
